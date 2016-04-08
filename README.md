@@ -10,5 +10,6 @@ installs the program, but
 - it requires administrator access,
 - because it modifies the system path, if not for other reasons, and
 - it puts files in the Start Menu folder.
+
 The Gpg4win README has a section that discusses installer options, but I
 don't see a way to solve these problems.
