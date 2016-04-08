@@ -1,0 +1,23 @@
+{
+    "homepage": "https://www.gpg4win.org",
+    "license": "https://www.gpg4win.org/license.html",
+    "version": "2.3.1",
+    "url": "https://files.gpg4win.org/gpg4win-vanilla-2.3.1.exe",
+    "hash": "25664c3799a585f0bf934f6ca6b952757b161beab1b2849013f70366330b779c",
+    "installer": {
+        "args": [
+            "/S",
+	    "/C=INST_START_MENU_FOLDER=FALSE",
+            "/D=$dir"
+        ],
+	"keep": "true"
+    },
+    "uninstaller": {
+            "file": "gpg4win-uninstall.exe",
+            "args": "/S"
+    },
+    "bin": [
+        [ "pub\\gpg.exe", "gpg" ],
+        [ "pub\\gpg2.exe", "gpg2" ]
+    ]
+}
